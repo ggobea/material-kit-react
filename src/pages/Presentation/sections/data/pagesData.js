@@ -13,29 +13,21 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
-
 export default [
   {
-    image: `${imagesPrefix}/about-us.jpg`,
-    name: "About Us Page",
-    route: "/pages/landing-pages/about-us",
+    image: `https://raycomar.s3.us-east-2.amazonaws.com/newyork.jpg`,
+    name: "New York",
   },
   {
-    image: `${imagesPrefix}/contact.jpg`,
-    name: "Contact Us Page",
-    route: "/pages/landing-pages/contact-us",
+    image: `https://raycomar.s3.us-east-2.amazonaws.com/losangeles.jpg`,
+    name: "Los Angeles",
   },
   {
-    image:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
-    route: "/pages/authentication/sign-in",
+    image: "https://raycomar.s3.us-east-2.amazonaws.com/sanfrancisco.jpg",
+    name: "San Francisco",
   },
   {
-    image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
-    route: "/pages/landing-pages/author",
+    image: `https://raycomar.s3.us-east-2.amazonaws.com/london.jpg`,
+    name: "London",
   },
 ];

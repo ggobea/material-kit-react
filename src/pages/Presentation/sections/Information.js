@@ -65,33 +65,32 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="flight"
+                  title="Vuelo incluido"
+                  description="Tenemos los mejores precios en vuelos para que puedas invertir tu dinero en educacion."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="school"
+                  title="Mejores institutos"
+                  description="Buscamos y comparamos los mejores institutos para obtener variedad y precio."
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="hotel"
+                  title="Hospedajes"
+                  description="Podes elegir en los campus universitarios, habitaciones de huespedes, Hoteles, Airbnb y mas."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="luggage"
+                  title="Paquetes pre-armados"
+                  description="Buscamos oportunidades y armamos paquetes para que puedas cumplir tu sueño de estudiar en el exterior."
                 />
               </Grid>
             </Grid>

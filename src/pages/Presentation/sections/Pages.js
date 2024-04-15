@@ -55,16 +55,16 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="boost creativity"
+            badgeContent="Explorá"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            With our coded pages
+            Nuestros destinos
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            The easiest way to get started is to use one of our
-            <br /> pre-built example pages.
+            Elegí el país que quieras, estas son solo
+            <br /> algunas de nuestras propuestas.
           </MKTypography>
         </Grid>
       </Container>
