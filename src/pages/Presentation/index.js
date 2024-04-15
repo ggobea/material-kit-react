@@ -34,7 +34,7 @@ import Information from "pages/Presentation/sections/Information";
 // import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
 import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
+// import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 // import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -162,16 +162,16 @@ function Presentation() {
         {/*  </Grid>*/}
         {/*</Container>*/}
         <Testimonials />
-        <Download />
+        {/*<Download />*/}
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
                 <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
-                  Thank you for your support!
+                  Seguinos y enterate de lo último
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  Todos los dias hay promos nuevas
                 </MKTypography>
               </Grid>
               <Grid

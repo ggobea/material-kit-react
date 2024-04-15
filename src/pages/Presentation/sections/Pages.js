@@ -78,11 +78,11 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Encontrá la ciudad que te identifique
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+                Cada ciudad es un mundo, y sabemos que existe un mundo ideal para vos. Nosotros te
+                ayudamos a encontrarlo.
               </MKTypography>
             </MKBox>
           </Grid>

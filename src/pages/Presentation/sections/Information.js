@@ -39,24 +39,24 @@ function Information() {
             <RotatingCard>
               <RotatingCardFront
                 image={bgFront}
-                icon="touch_app"
+                icon="group"
                 title={
                   <>
-                    Feel the
+                    Que
                     <br />
-                    Material Kit
+                    Ofrecemos
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Trabajamos juntos para conseguir la mejor experiencia para tu viaje de estudio."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Contanos que buscas"
+                description="Ponete en contacto con uno de nuestros asesores y sacate todas tus dudas"
                 action={{
                   type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Whatsapp",
+                  color: "green",
                 }}
               />
             </RotatingCard>
